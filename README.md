@@ -19,7 +19,7 @@ A glimpse of Dataset.
 </p>
 
 Dataset can be found on this site-https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
-# Acknowledgements for this dataset
+## Acknowledgements for this dataset
 Data: https://data.mendeley.com/datasets/rscbjbr9sj/2
 
 License: CC BY 4.0
@@ -27,7 +27,7 @@ License: CC BY 4.0
 Citation: http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5
 Inspiration
 Automated methods to detect and classify human diseases from medical images.
-# NOTE: This dataset does not belong to us neither created by us.
+### NOTE: This dataset does not belong to us neither created by us.
 
 
 
