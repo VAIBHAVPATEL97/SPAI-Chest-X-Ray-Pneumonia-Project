@@ -33,20 +33,20 @@ Automated methods to detect and classify human diseases from medical images.
 Kaggle Kernel link:https://www.kaggle.com/iamsdt/chest-x-ray-prediction
 
 
-Model name: vgg16
-CNN layers:
-Linear Layer
-Pooling
-Activation Function
-Optimizer
-Learning rate
-Optimizer
-Loss function
-Epoch:
-Transformation
-Results:
-Total Accuracy:
-Classwise accuracy:
+Model name: vgg16 <br>
+CNN layers:<br>
+Linear Layer:<br>
+Pooling:<br>
+Activation Function:<br>
+Optimizer:<br>
+Learning rate:<br>
+Optimizer:<br>
+Loss function:<br>
+Epoch:<br>
+Transformation:<br>
+Results:<br>
+Total Accuracy:<br>
+Classwise accuracy:<br>
 
 # Resources used for this project
 [CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning](https://stanfordmlgroup.github.io/projects/chexnet/)
