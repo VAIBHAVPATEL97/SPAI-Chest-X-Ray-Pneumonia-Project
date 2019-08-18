@@ -2,9 +2,9 @@
 This repository will contain all the necessary resources required for this project and also feel free to contribute to this repo.
 There are separate folder made to update your progress of this project and to upload resources so maintain the format.
 Contributors of this project are:
-1. Vaibhav Patel
-2. Shudipto Trafder
-3. Sankalp Dayal
+1. Vaibhav Patel (Slack Name: Vebby)
+2. Shudipto Trafder (Slack Name: Shudipto Trafder )
+3. Sankalp Dayal (Slack Name: Sankalp Dayal)
 
 # About the Dataset
 For this project, we have dataset present on kaggle.The dataset is organized into 3 folders (train, test, val) and contains subfolders for each image category (Pneumonia/Normal). There are 5,863 X-Ray images (JPEG) and 2 categories (Pneumonia/Normal).
@@ -29,11 +29,12 @@ Inspiration
 Automated methods to detect and classify human diseases from medical images.
 ### NOTE: This dataset does not belong to us neither created by us.
 
+# Proposed model for this project
+Kaggle Kernel link:https://www.kaggle.com/iamsdt/chest-x-ray-prediction
 
 
-
-Model name
-CNN layers
+Model name: vgg16
+CNN layers:
 Linear Layer
 Pooling
 Activation Function
