@@ -30,6 +30,7 @@ Automated methods to detect and classify human diseases from medical images.
 ### NOTE: This dataset does not belong to us neither created by us.
 
 # Proposed model for this project
+Prerequisite Packages to run the model: Numpy:v1. <br> Pandas:v <br> PIL: <br> Matplotlib:v <br>
 Kaggle Kernel link:https://www.kaggle.com/iamsdt/chest-x-ray-prediction
 
 
