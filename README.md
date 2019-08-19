@@ -4,10 +4,10 @@
 </p>
 This repository will contain all the necessary resources required for this project and also feel free to contribute to this repo.
 There are separate folder made to update your progress of this project and to upload resources so maintain the format.
-Contributors of this project are:
-1. Vaibhav Patel (Slack Name: Vebby)
-2. Shudipto Trafder (Slack Name: Shudipto Trafder )
-3. Sankalp Dayal (Slack Name: Sankalp Dayal)
+Contributors of this project are:<br>
+1. Vaibhav Patel (Slack Name: Vebby) <br>
+2. Shudipto Trafder (Slack Name: Shudipto Trafder )<br>
+3. Sankalp Dayal (Slack Name: Sankalp Dayal)<br>
 
 # About the Dataset
 For this project, we have dataset present on kaggle.The dataset is organized into 3 folders (train, test, val) and contains subfolders for each image category (Pneumonia/Normal). There are 5,863 X-Ray images (JPEG) and 2 categories (Pneumonia/Normal).
@@ -44,7 +44,7 @@ Prerequisite packages in your environment to run this project model.
 
 Kaggle Kernel link:https://www.kaggle.com/iamsdt/chest-x-ray-prediction
 
-Model name: vgg16 <br>
+Model name: RESNET101 <br>
 CNN layers:<br>
 Linear Layer:<br>
 Pooling:<br>
