@@ -63,6 +63,7 @@ Class wise accuracy:<br>
 
 ### Libraries version
 Prerequisite packages which should be there in your run environment to run this project model.
+
 | Package Name  | Version Number |
 | ------------- | ------------- |
 | Torch  | 1.2.0  |
@@ -72,6 +73,7 @@ Prerequisite packages which should be there in your run environment to run this 
 | PIL  | 5.4.0 |
 
 ## Contributors of this project are:
+
 | Name | Slack Name |
 | --- | ---|
 | Vaibhav Patel| Vebby
