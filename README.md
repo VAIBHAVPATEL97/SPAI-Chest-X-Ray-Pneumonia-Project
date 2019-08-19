@@ -1,4 +1,7 @@
-# SPAI-Chest-X-Ray-Pneumonia Project
+# SPAI-Chest-X-Ray-Pneumonia Project- Project Showcase
+<p align="center">
+  <img width="560" height="200" src="https://github.com/VAIBHAVPATEL97/SPAIC-Pneumonia-Project/blob/master/jZqpV51.png">
+</p>
 This repository will contain all the necessary resources required for this project and also feel free to contribute to this repo.
 There are separate folder made to update your progress of this project and to upload resources so maintain the format.
 Contributors of this project are:
