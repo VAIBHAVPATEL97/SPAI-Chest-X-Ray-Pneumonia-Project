@@ -28,15 +28,13 @@ Inspiration
 Automated methods to detect and classify human diseases from medical images.
 ### NOTE: This dataset does not belong to us neither created by us.
 
-# Proposed model for this project
+# Proposed Model
+Prerequisite packages in your environment to run this project model.
 
 We used transfer learning Method
 And used Resnet101 pretrained model
 
 # Model Architecture
-
-
-
 
 CNN layers:<br>
 Linear Layer:<br>
@@ -53,6 +51,21 @@ Epoch:<br>
 Transformation:<br>
 
 # Accuracy
+
+# Why RESNET101?
+We have tried various other network model for this project. Below shown table shows the comparision of various models and their effect of the accuracy of prediction.
+
+| Parameter |Description|
+| ------------- | ------------- |
+| Model Name  | Content Cell  |
+| CNN layer  | Content Cell  |
+| Linear layer  | Content Cell  |
+| Activation Function  | Content Cell  |
+|Optimizer | Content Cell  |
+| Loss Function  | Content Cell  |
+|Epoch  | Content Cell  |
+| Transformation | Content Cell  |
+
 Total Accuracy:<br>
 Class wise accuracy:<br>
 
