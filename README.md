@@ -36,18 +36,17 @@ And used Resnet101 pretrained model
 
 # Model Architecture
 
-CNN layers:<br>
-Linear Layer:<br>
-Pooling:<br>
-Activation Function:<br>
+CNN layers: <br>
+Linear Layer: 3 layers<br>
+Pooling: LogSoftmax<br>
+Activation Function: Mila<br>
 
 # Hyper parameters
-Batch size: 
-Optimizer:<br>
-Learning rate:<br>
-Optimizer:<br>
-Loss function:<br>
-Epoch:<br>
+Batch size: 32
+Learning rate:0.0001<br>
+Optimizer:Rectified Adam (RAdam)<br>
+Loss function:Cross Entropy <br>
+Epoch: 10 <br>
 Transformation:<br>
 
 # Accuracy
@@ -55,16 +54,6 @@ Transformation:<br>
 # Why RESNET101?
 We have tried various other network model for this project. Below shown table shows the comparision of various models and their effect of the accuracy of prediction.
 
-| Parameter |Description|
-| ------------- | ------------- |
-| Model Name  | Content Cell  |
-| CNN layer  | Content Cell  |
-| Linear layer  | Content Cell  |
-| Activation Function  | Content Cell  |
-|Optimizer | Content Cell  |
-| Loss Function  | Content Cell  |
-|Epoch  | Content Cell  |
-| Transformation | Content Cell  |
 
 Total Accuracy:<br>
 Class wise accuracy:<br>
