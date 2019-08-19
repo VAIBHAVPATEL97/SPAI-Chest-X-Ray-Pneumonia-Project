@@ -43,6 +43,8 @@ Prerequisite packages in your environment to run this project model.
 | PIL  | 5.4.0 |
 | TorcVisione  |  0.4.0a0+6b959ee|
 
+
+
 Kaggle Kernel link:https://www.kaggle.com/iamsdt/chest-x-ray-prediction
 
 Model name: RESNET101 <br>
