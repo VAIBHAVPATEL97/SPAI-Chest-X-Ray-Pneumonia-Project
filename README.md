@@ -46,6 +46,7 @@ Prerequisite packages in your environment to run this project model.
 Kaggle Kernel link:https://www.kaggle.com/iamsdt/chest-x-ray-prediction
 # Why RESNET101?
 We have tried various other network model for this project. Below shown table shows the comparision of various models and their effect of the accuracy of prediction.
+
 | Parameter |Description|
 | ------------- | ------------- |
 | Model Name  | Content Cell  |
