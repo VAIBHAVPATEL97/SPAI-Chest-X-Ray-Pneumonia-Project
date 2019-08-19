@@ -32,7 +32,7 @@ Inspiration
 Automated methods to detect and classify human diseases from medical images.
 ### NOTE: This dataset does not belong to us neither created by us.
 
-# Proposed model for this project
+# Proposed Model
 Prerequisite packages in your environment to run this project model.
 
 | Package Name  | Version Number |
