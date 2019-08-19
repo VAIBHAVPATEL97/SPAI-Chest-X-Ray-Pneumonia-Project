@@ -4,12 +4,8 @@
 </p>
 This repository will contain all the necessary resources required for this project and also feel free to contribute to this repo.
 There are separate folder made to update your progress of this project and to upload resources so maintain the format.
-Contributors of this project are:<br>
-1. Vaibhav Patel (Slack Name: Vebby) <br>
-2. Shudipto Trafder (Slack Name: Shudipto Trafder )<br>
-3. Sankalp Dayal (Slack Name: Sankalp Dayal)<br>
 
-# About the Dataset
+# Dataset
 For this project, we have dataset present on kaggle.The dataset is organized into 3 folders (train, test, val) and contains subfolders for each image category (Pneumonia/Normal). There are 5,863 X-Ray images (JPEG) and 2 categories (Pneumonia/Normal).
 
 Chest X-ray images (anterior-posterior) were selected from retrospective cohorts of pediatric patients of one to five years old from Guangzhou Women and Children’s Medical Center, Guangzhou. All chest X-ray imaging was performed as part of patients’ routine clinical care.
@@ -33,34 +29,52 @@ Automated methods to detect and classify human diseases from medical images.
 ### NOTE: This dataset does not belong to us neither created by us.
 
 # Proposed model for this project
-Prerequisite packages in your environment to run this project model.
 
-| Package Name  | Version Number |
-| ------------- | ------------- |
-| Numpy | 1.17.0 |
-|Matplotlib  | 3.0.3 |
-| Torch  | 1.2.0  |
-| PIL  | 5.4.0 |
-| TorcVisione  |  0.4.0a0+6b959ee|
+We used transfer learning Method
+And used Resnet101 pretrained model
+
+# Model Architecture
 
 
 
-Kaggle Kernel link:https://www.kaggle.com/iamsdt/chest-x-ray-prediction
 
-Model name: RESNET101 <br>
 CNN layers:<br>
 Linear Layer:<br>
 Pooling:<br>
 Activation Function:<br>
+
+# Hyper parameters
+Batch size: 
 Optimizer:<br>
 Learning rate:<br>
 Optimizer:<br>
 Loss function:<br>
 Epoch:<br>
 Transformation:<br>
-Results:<br>
+
+# Accuracy
 Total Accuracy:<br>
-Classwise accuracy:<br>
+Class wise accuracy:<br>
+
+#### Kaggle Kernel: 
+[chest-x-ray-prediction](https://www.kaggle.com/iamsdt/chest-x-ray-prediction)
+
+### Libraries version
+| Package Name  | Version Number |
+| ------------- | ------------- |
+| Torch  | 1.2.0  |
+| Torch vision  |  0.4.0a0+6b959ee|
+| Numpy | 1.17.0 |
+|Matplotlib  | 3.0.3 |
+| PIL  | 5.4.0 |
+
+## Contributors of this project are:
+| Name | Slack Name |
+| --- | ---|
+| Vaibhav Patel| Vebby)
+| Shudipto Trafder | Shudipto Trafder
+| Sankalp Dayal | Sankalp Dayal
+
 
 # Resources used for this project
 [CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning](https://stanfordmlgroup.github.io/projects/chexnet/)
