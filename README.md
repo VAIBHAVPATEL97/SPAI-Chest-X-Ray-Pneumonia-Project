@@ -29,6 +29,9 @@ Automated methods to detect and classify human diseases from medical images.
 ### NOTE: This dataset does not belong to us neither created by us.
 
 # Proposed Model
+#### Kaggle Kernel: 
+[chest-x-ray-prediction](https://www.kaggle.com/iamsdt/chest-x-ray-prediction)
+
 # Why RESNET101?
 We have tried various other network model for this project. Below shown table shows the comparision of various models and their effect of the accuracy of prediction.
 # About RESNET101.
@@ -57,8 +60,6 @@ Transformation:<br>
 Total Accuracy:<br>
 Class wise accuracy:<br>
 
-#### Kaggle Kernel: 
-[chest-x-ray-prediction](https://www.kaggle.com/iamsdt/chest-x-ray-prediction)
 
 ### Libraries version
 Prerequisite packages which should be there in your run environment to run this project model.
