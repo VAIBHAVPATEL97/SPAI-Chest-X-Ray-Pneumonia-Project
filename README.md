@@ -34,6 +34,7 @@ Automated methods to detect and classify human diseases from medical images.
 
 # Proposed model for this project
 Prerequisite packages in your environment to run this project model.
+
 | Package Name  | Version Number |
 | ------------- | ------------- |
 | Numpy | 1.17.0 |
