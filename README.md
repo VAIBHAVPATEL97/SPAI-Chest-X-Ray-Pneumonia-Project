@@ -29,7 +29,9 @@ Automated methods to detect and classify human diseases from medical images.
 ### NOTE: This dataset does not belong to us neither created by us.
 
 # Proposed Model
-Prerequisite packages in your environment to run this project model.
+# Why RESNET101?
+We have tried various other network model for this project. Below shown table shows the comparision of various models and their effect of the accuracy of prediction.
+# About RESNET101.
 
 We used transfer learning Method
 And used Resnet101 pretrained model
@@ -51,9 +53,6 @@ Transformation:<br>
 
 # Accuracy
 
-# Why RESNET101?
-We have tried various other network model for this project. Below shown table shows the comparision of various models and their effect of the accuracy of prediction.
-
 
 Total Accuracy:<br>
 Class wise accuracy:<br>
@@ -62,6 +61,7 @@ Class wise accuracy:<br>
 [chest-x-ray-prediction](https://www.kaggle.com/iamsdt/chest-x-ray-prediction)
 
 ### Libraries version
+Prerequisite packages which should be there in your run environment to run this project model.
 | Package Name  | Version Number |
 | ------------- | ------------- |
 | Torch  | 1.2.0  |
@@ -73,7 +73,7 @@ Class wise accuracy:<br>
 ## Contributors of this project are:
 | Name | Slack Name |
 | --- | ---|
-| Vaibhav Patel| Vebby)
+| Vaibhav Patel| Vebby
 | Shudipto Trafder | Shudipto Trafder
 | Sankalp Dayal | Sankalp Dayal
 
