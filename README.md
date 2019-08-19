@@ -43,21 +43,20 @@ Prerequisite packages in your environment to run this project model.
 | PIL  | 5.4.0 |
 | TorcVisione  |  0.4.0a0+6b959ee|
 
-
-
 Kaggle Kernel link:https://www.kaggle.com/iamsdt/chest-x-ray-prediction
+# Why RESNET101?
+We have tried various other network model for this project. Below shown table shows the comparision of various models and their effect of the accuracy of prediction.
+| Parameter |Description|
+| ------------- | ------------- |
+| Model Name  | Content Cell  |
+| CNN layer  | Content Cell  |
+| Linear layer  | Content Cell  |
+| Activation Function  | Content Cell  |
+|Optimizer | Content Cell  |
+| Loss Function  | Content Cell  |
+|Epoch  | Content Cell  |
+| Transformation | Content Cell  |
 
-Model name: RESNET101 <br>
-CNN layers:<br>
-Linear Layer:<br>
-Pooling:<br>
-Activation Function:<br>
-Optimizer:<br>
-Learning rate:<br>
-Optimizer:<br>
-Loss function:<br>
-Epoch:<br>
-Transformation:<br>
 Results:<br>
 Total Accuracy:<br>
 Classwise accuracy:<br>
