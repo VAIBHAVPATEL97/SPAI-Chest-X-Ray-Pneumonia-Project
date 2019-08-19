@@ -35,7 +35,7 @@ Automated methods to detect and classify human diseases from medical images.
 # Why RESNET101?
 We have tried various other network model for this project. Below shown table shows the comparision of various models and their effect of the accuracy of prediction.
 # About RESNET101.
-
+[RESNET](https://arxiv.org/pdf/1512.03385.pdf)
 We used transfer learning Method
 And used Resnet101 pretrained model
 
