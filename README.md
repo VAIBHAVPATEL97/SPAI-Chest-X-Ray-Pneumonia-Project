@@ -1,6 +1,6 @@
 # SPAI-Chest-X-Ray-Pneumonia Project- Project Showcase
 <p align="center">
-  <img width="560" height="200" src="https://github.com/VAIBHAVPATEL97/SPAIC-Pneumonia-Project/blob/master/jZqpV51.png">
+  <img width="1250" height="300" src="https://github.com/VAIBHAVPATEL97/SPAIC-Pneumonia-Project/blob/master/project%20showcase.jpg">
 </p>
 This repository will contain all the necessary resources required for this project and also feel free to contribute to this repo.
 There are separate folder made to update your progress of this project and to upload resources so maintain the format.
@@ -33,9 +33,16 @@ Automated methods to detect and classify human diseases from medical images.
 ### NOTE: This dataset does not belong to us neither created by us.
 
 # Proposed model for this project
-Prerequisite Packages to run the model: Numpy:v1. <br> Pandas:v <br> PIL: <br> Matplotlib:v <br>
-Kaggle Kernel link:https://www.kaggle.com/iamsdt/chest-x-ray-prediction
+Prerequisite packages in your environment to run this project model.
+| Package Name  | Version Number |
+| ------------- | ------------- |
+| Numpy | 1.17.0 |
+|Matplotlib  | 3.0.3 |
+| Torch  | 1.2.0  |
+| PIL  | 5.4.0 |
+| TorcVisione  |  0.4.0a0+6b959ee|
 
+Kaggle Kernel link:https://www.kaggle.com/iamsdt/chest-x-ray-prediction
 
 Model name: vgg16 <br>
 CNN layers:<br>
