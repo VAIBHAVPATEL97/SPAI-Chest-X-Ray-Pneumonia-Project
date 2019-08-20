@@ -92,6 +92,9 @@ And used Resnet101 pretrained model
 
 # Transformation
  FLOW DIAGRAM
+<p align="center">
+  <img width="500" src="https://github.com/sankalpdayal5/SPAIC-Pneumonia-Project/blob/master/Flowchart.jpg">
+</p>
 
 # Accuracy
 
