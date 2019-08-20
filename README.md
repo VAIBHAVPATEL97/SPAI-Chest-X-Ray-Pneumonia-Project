@@ -59,7 +59,7 @@ We have tried various other network model for this project. Below shown table sh
 #####   Comparision of various models for selecting the best model.
 
 | Model Name  | Total Accuracy |
-| ------------- | ------------- |  ]
+| ------------- | ------------- |  
 | VGG 16  | 79.2188   | 
 | RESNET 50  | 83.2812   |
 | RESNET 101  | 91.7188  |
