@@ -6,7 +6,7 @@ This repository will contain all the necessary resources required for this proje
 There are separate folder made to update your progress of this project and to upload resources so maintain the format.
 
 # Abstract
-
+We have developed a model that can detect pneumonia from Chest X-Rays of the patient which has a significant level of accuracy in detecting pneumonia in comparison with practicing radiologists.  Detecting pneumonia from chest radiograph is a tough task for the radiologist. The appearance of pneumonia in X-ray images are often confusing, can overlap with other diagnoses, and can mimic many other abnormalities. So the radiologists can get confused by this, leading to waste their time as well as energy just to detect the disease like pneumonia from the radiograph. So to help them get a second opinion, they can take help of our model for the detection of pneumonia.
 # Dataset
 For this project, we have dataset present on kaggle.The dataset is organized into 3 folders (train, test, val) and contains subfolders for each image category (Pneumonia/Normal). There are 5,863 X-Ray images (JPEG) and 2 categories (Pneumonia/Normal).
 
@@ -37,17 +37,19 @@ Automated methods to detect and classify human diseases from medical images.
 # Why RESNET101?
 We have tried various other network model for this project. Below shown table shows the comparision of various models and their effect of the accuracy of prediction.
 
-| Model Name  | Total Accuracy (%) |
-| ------------- | ------------- |
-| VGG16  | 79.2188  |
-| RESNET 50  | 83.2812  |
-| RESNET 101  |  91.7188  |
+| Model Name  | Accuracy of class 1- Pneumonia detected |Accuracy of class 2- Pneumonia is not detected|
+| ------------- | ------------- |  ------------- |
+| VGG16  | Content Cell  | |
+| RESNET 51  | Content Cell  ||
+| RESNET 101  | Content Cell  ||
 # About RESNET101.
 [Paper on RESNET by arvix](https://arxiv.org/pdf/1512.03385.pdf)
 We used transfer learning Method
 And used Resnet101 pretrained model
 
 # Model Architecture
+
+CNN layers: <br>
 Linear Layer: 3 layers<br>
 Pooling: LogSoftmax<br>
 Activation Function: Mila<br>
@@ -61,6 +63,7 @@ Epoch: 10 <br>
 Transformation:<br>
 
 # Accuracy
+
 
 Total Accuracy:<br>
 Class wise accuracy:<br>
