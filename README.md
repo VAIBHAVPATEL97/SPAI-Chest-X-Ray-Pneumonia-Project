@@ -86,7 +86,7 @@ And used Resnet101 pretrained model
 | Batch Size | 32  |
 | Epoch | 10 |
 | Learning Rate  | 0.0001  |
-| Optimizer | [Rectified Adam (RAdam)(https://github.com/LiyuanLucasLiu/RAdam)]|
+| Optimizer | [Rectified Adam (RAdam)](https://github.com/LiyuanLucasLiu/RAdam)|
 | Loss Function  | Cross Entropy Loss |
 
 
