@@ -5,6 +5,8 @@
 This repository will contain all the necessary resources required for this project and also feel free to contribute to this repo.
 There are separate folder made to update your progress of this project and to upload resources so maintain the format.
 
+# Abstract
+
 # Dataset
 For this project, we have dataset present on kaggle.The dataset is organized into 3 folders (train, test, val) and contains subfolders for each image category (Pneumonia/Normal). There are 5,863 X-Ray images (JPEG) and 2 categories (Pneumonia/Normal).
 
@@ -34,8 +36,14 @@ Automated methods to detect and classify human diseases from medical images.
 
 # Why RESNET101?
 We have tried various other network model for this project. Below shown table shows the comparision of various models and their effect of the accuracy of prediction.
+
+| Model Name  | Accuracy of class 1- Pneumonia detected |Accuracy of class 2- Pneumonia is not detected|
+| ------------- | ------------- |  ------------- |
+| VGG16  | Content Cell  | |
+| RESNET 51  | Content Cell  ||
+| RESNET 101  | Content Cell  ||
 # About RESNET101.
-[Paper on RESNET by arvix] (https://arxiv.org/pdf/1512.03385.pdf)
+[Paper on RESNET by arvix](https://arxiv.org/pdf/1512.03385.pdf)
 We used transfer learning Method
 And used Resnet101 pretrained model
 
@@ -81,9 +89,11 @@ Prerequisite packages which should be there in your run environment to run this 
 | Sankalp Dayal | Sankalp Dayal
 
 
-# Resources used for this project
+# References 
 [CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning](https://stanfordmlgroup.github.io/projects/chexnet/)
 
 [Can Machine Learning Read Chest X-rays like Radiologists?](https://towardsdatascience.com/can-machine-learning-read-chest-x-rays-like-radiologists-part-1-7182cf4b87ff)
 
 [Effecient Deep Network Architectures for Fast Chest X-Ray Tuberculosis Screening and Visualization](https://www.nature.com/articles/s41598-019-42557-4.pdf)
+
+https://arxiv.org/abs/1711.05225
