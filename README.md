@@ -39,7 +39,7 @@ Automated methods to detect and classify human diseases from medical images.
 #### NOTE: This dataset does not belong to us neither created by us.
 
 # Proposed Model
-#### Kaggle Kernel: 
+### Kaggle Kernel: 
 [chest-x-ray-prediction](https://www.kaggle.com/iamsdt/chest-x-ray-prediction)
 
 ### Libraries version
@@ -53,7 +53,7 @@ Prerequisite packages which should be there in your run environment to run this 
 |Matplotlib  | 3.0.3 |
 | PIL  | 5.4.0 |
 
-# Why RESNET101?
+## Why RESNET101?
 We have tried various other network model for this project. Below shown table shows the comparision of various models and their effect of the accuracy of prediction.
 
 #####   Comparision of various models for selecting the best model.
@@ -64,12 +64,12 @@ We have tried various other network model for this project. Below shown table sh
 | RESNET 50  | 83.2812   |
 | RESNET 101  | 91.7188  |
 
-# About RESNET101.
+## About RESNET101.
 [Paper on RESNET by arvix](https://arxiv.org/pdf/1512.03385.pdf)
 We used transfer learning Method
 And used Resnet101 pretrained model
 
-# Model Architecture
+## Model Architecture
 
 | Parameters  | Description/Status |
 | ------------- | ------------- |
@@ -80,7 +80,7 @@ And used Resnet101 pretrained model
 | Activation Function  | Mila <br> (https://github.com/digantamisra98/Mish) |
 | Last Layer Activation Function  | LogSoftmax  |
 
-# Hyper parameters
+## Hyper parameters
 
 | Parameters  | Description/Status |
 | ------------- | ------------- |
@@ -95,20 +95,21 @@ And used Resnet101 pretrained model
 
 # Accuracy
 
+Total Accuracy: 91.7188 %
 
-Total Accuracy:<br>
-Class wise accuracy:<br>
+Class wise accuracy:
+
+| Class Name | Accuracy
+| --- | ---
+| NORMAL | 79%
+| PNEUMONIA | 98%
 
 # Future Work
 1. To test this model on NIH Chest X-ray Dataset to study the performance of this model.[NIH Chest X-ray Dataset](https://www.kaggle.com/nih-chest-xrays/data)<br>
 2. Comparison of the accuracy of detecting pneumonia between the proposed model and by radiologists.
 3. To make an Andriod and IOS application after successfully acheiving state of the art accuracy.
 # References  
-[CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning](https://stanfordmlgroup.github.io/projects/chexnet/)
-
-[Can Machine Learning Read Chest X-rays like Radiologists?](https://towardsdatascience.com/can-machine-learning-read-chest-x-rays-like-radiologists-part-1-7182cf4b87ff)
-
-[Effecient Deep Network Architectures for Fast Chest X-Ray Tuberculosis Screening and Visualization](https://www.nature.com/articles/s41598-019-42557-4.pdf)
-
-
-[ChesXNET by stanford](https://arxiv.org/pdf/1711.05225.pdf)
+- [CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning](https://stanfordmlgroup.github.io/projects/chexnet/)
+- [Can Machine Learning Read Chest X-rays like Radiologists?](https://towardsdatascience.com/can-machine-learning-read-chest-x-rays-like-radiologists-part-1-7182cf4b87ff)
+- [Effecient Deep Network Architectures for Fast Chest X-Ray Tuberculosis Screening and Visualization](https://www.nature.com/articles/s41598-019-42557-4.pdf)
+- [ChesXNET by stanford](https://arxiv.org/pdf/1711.05225.pdf)
