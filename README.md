@@ -70,7 +70,8 @@ We used transfer learning Method
 And used Resnet101 pretrained model
 
 ## Model Architecture
-We used transfer learning, and replace the **FC** layer of **RESNET101** with below layers 
+We used transfer learning, and replace the **FC** layer of **RESNET101** with below layers
+
 | Parameters  | Description/Status |
 | ------------- | ------------- |
 | Linear layer  | 3 Layers  |
