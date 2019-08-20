@@ -48,24 +48,47 @@ We used transfer learning Method
 And used Resnet101 pretrained model
 
 # Model Architecture
-Linear Layer: 3 layers<br>
-Pooling: LogSoftmax<br>
-Activation Function: Mila<br>
+Train whole Model
+
+| Parameters |
+|---|
+|Freeze Status: Unfreeze
+| Linear Layer: 3 layers
+| Dropout: 0.4, 0.5
+| Activation Function: [Mila](https://github.com/digantamisra98/Mish)
+| Last Layer Activation: LogSoftmax
 
 # Hyper parameters
-Batch size: 32
-Learning rate:0.0001<br>
-Optimizer:Rectified Adam (RAdam)<br>
-Loss function:Cross Entropy <br>
-Epoch: 10 <br>
-Transformation:<br>
+| Hyper Parameters|
+| --- |
+|Batch size: 32 |
+| Learning rate: 0.0001 |
+| Optimizer: [Rectified Adam (RAdam)](https://github.com/LiyuanLucasLiu/RAdam) |
+| Loss function: Cross Entropy |
+| Epoch: 10 <br> |
+
+
+
+|Transformations |
+| --- |
+| Resize(256) |                           
+| CenterCrop(270) |                             
+| RandomHorizontalFlip()|                            
+| ToTensor() |
+| Mean: 0.5124654 0.5124654 0.5124654|
+| Std: 0.2393792 0.2393792 0.2393792 |
+|Normalize() |
 
 # Accuracy
 
-Total Accuracy:<br>
-Class wise accuracy:<br>
+Total Accuracy: 91.7188 %
 
+Class wise accuracy:
 
+| Class Name | Accuracy
+| --- | ---
+| NORMAL | 79%
+| PNEUMONIA | 98%
 ### Libraries version
 Prerequisite packages which should be there in your run environment to run this project model.
 
@@ -87,11 +110,7 @@ Prerequisite packages which should be there in your run environment to run this 
 
 
 # References 
-[CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning](https://stanfordmlgroup.github.io/projects/chexnet/)
-
-[Can Machine Learning Read Chest X-rays like Radiologists?](https://towardsdatascience.com/can-machine-learning-read-chest-x-rays-like-radiologists-part-1-7182cf4b87ff)
-
-[Effecient Deep Network Architectures for Fast Chest X-Ray Tuberculosis Screening and Visualization](https://www.nature.com/articles/s41598-019-42557-4.pdf)
-
-
-[ChesXNET by stanford](https://arxiv.org/pdf/1711.05225.pdf)
+- [CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning](https://stanfordmlgroup.github.io/projects/chexnet/)
+- [Can Machine Learning Read Chest X-rays like Radiologists?](https://towardsdatascience.com/can-machine-learning-read-chest-x-rays-like-radiologists-part-1-7182cf4b87ff)
+- [Effecient Deep Network Architectures for Fast Chest X-Ray Tuberculosis Screening and Visualization](https://www.nature.com/articles/s41598-019-42557-4.pdf)
+- [ChesXNET by stanford](https://arxiv.org/pdf/1711.05225.pdf)
