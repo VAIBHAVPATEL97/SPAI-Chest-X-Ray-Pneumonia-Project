@@ -55,6 +55,7 @@ Prerequisite packages which should be there in your run environment to run this 
 
 # Why RESNET101?
 We have tried various other network model for this project. Below shown table shows the comparision of various models and their effect of the accuracy of prediction.
+
 #####   Comparision of various models for selecting the best model.
 
 | Model Name  | Total Accuracy |
