@@ -74,10 +74,9 @@ And used Resnet101 pretrained model
 | Parameters  | Description/Status |
 | ------------- | ------------- |
 | Freeze Status | Unfreeze  |
-| CNN layer  | NA  |
 | Linear layer  | 3 Layers  |
 | Dropout  | 0.4-0.5  |
-| Activation Function  | Mila <br> (https://github.com/digantamisra98/Mish) |
+| Activation Function  | [Mila](https://github.com/digantamisra98/Mish) |
 | Last Layer Activation Function  | LogSoftmax  |
 
 ## Hyper parameters
@@ -85,10 +84,11 @@ And used Resnet101 pretrained model
 | Parameters  | Description/Status |
 | ------------- | ------------- |
 | Batch Size | 32  |
-| Learning Rate  | 0.0001  |
-| Optimizer | Rectified Adam (RAdam)|
-| Loss Function  | Cross Entropy |
 | Epoch | 10 |
+| Learning Rate  | 0.0001  |
+| Optimizer | [Rectified Adam (RAdam)(https://github.com/LiyuanLucasLiu/RAdam)]|
+| Loss Function  | Cross Entropy Loss |
+
 
 # Transformation
  FLOW DIAGRAM
