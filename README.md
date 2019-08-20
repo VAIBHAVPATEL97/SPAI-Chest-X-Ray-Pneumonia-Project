@@ -96,4 +96,5 @@ Prerequisite packages which should be there in your run environment to run this 
 
 [Effecient Deep Network Architectures for Fast Chest X-Ray Tuberculosis Screening and Visualization](https://www.nature.com/articles/s41598-019-42557-4.pdf)
 
-https://arxiv.org/abs/1711.05225
+
+[ChesXNET by stanford](https://arxiv.org/pdf/1711.05225.pdf)
