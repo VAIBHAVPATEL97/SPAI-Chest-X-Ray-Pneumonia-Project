@@ -110,7 +110,7 @@ Class wise accuracy:
 # Federated Learning
 
 <p align="center">
-  <img width="700" src="https://github.com/sankalpdayal5/SPAIC-Pneumonia-Project/blob/master/federated.jpg">
+  <img width="700" src="https://github.com/sankalpdayal5/SPAIC-Pneumonia-Project/blob/master/federated%20image.jpg">
 </p>
 
 
