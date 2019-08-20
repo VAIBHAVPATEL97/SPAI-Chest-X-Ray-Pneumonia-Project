@@ -37,19 +37,17 @@ Automated methods to detect and classify human diseases from medical images.
 # Why RESNET101?
 We have tried various other network model for this project. Below shown table shows the comparision of various models and their effect of the accuracy of prediction.
 
-| Model Name  | Accuracy of class 1- Pneumonia detected |Accuracy of class 2- Pneumonia is not detected|
-| ------------- | ------------- |  ------------- |
-| VGG16  | Content Cell  | |
-| RESNET 51  | Content Cell  ||
-| RESNET 101  | Content Cell  ||
+| Model Name  | Total Accuracy (%) |
+| ------------- | ------------- |
+| VGG16  | 79.2188  |
+| RESNET 50  | 83.2812  |
+| RESNET 101  |  91.7188  |
 # About RESNET101.
 [Paper on RESNET by arvix](https://arxiv.org/pdf/1512.03385.pdf)
 We used transfer learning Method
 And used Resnet101 pretrained model
 
 # Model Architecture
-
-CNN layers: <br>
 Linear Layer: 3 layers<br>
 Pooling: LogSoftmax<br>
 Activation Function: Mila<br>
@@ -63,7 +61,6 @@ Epoch: 10 <br>
 Transformation:<br>
 
 # Accuracy
-
 
 Total Accuracy:<br>
 Class wise accuracy:<br>
