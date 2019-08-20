@@ -8,9 +8,9 @@ This repository is created for SPAIC project showcase. Project titled "Detection
 
 | Name | Slack Name |
 | --- | ---|
-| Vaibhav Patel| Vebby
-| Shudipto Trafder | Shudipto Trafder
-| Sankalp Dayal | Sankalp Dayal
+| Vaibhav Patel| @Vebby
+| Shudipto Trafder | @Shudipto Trafder
+| Sankalp Dayal | @Sankalp Dayal
 
 
 # Abstract
@@ -55,7 +55,7 @@ Prerequisite packages which should be there in your run environment to run this 
 
 # Why RESNET101?
 We have tried various other network model for this project. Below shown table shows the comparision of various models and their effect of the accuracy of prediction.
-
+#####   Comparision of various models for selecting the best model.
 | Model Name  | Accuracy of class 1- Pneumonia detected |Accuracy of class 2- Pneumonia is not detected|
 | ------------- | ------------- |  ------------- |
 | VGG16  | Content Cell  | |
