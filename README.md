@@ -56,11 +56,13 @@ Prerequisite packages which should be there in your run environment to run this 
 # Why RESNET101?
 We have tried various other network model for this project. Below shown table shows the comparision of various models and their effect of the accuracy of prediction.
 #####   Comparision of various models for selecting the best model.
+
 | Model Name  | Total Accuracy |
 | ------------- | ------------- |  ]
 | VGG 16  | 79.2188   | 
 | RESNET 50  | 83.2812   |
 | RESNET 101  | 91.7188  |
+
 # About RESNET101.
 [Paper on RESNET by arvix](https://arxiv.org/pdf/1512.03385.pdf)
 We used transfer learning Method
@@ -70,20 +72,23 @@ And used Resnet101 pretrained model
 
 | Parameters  | Description/Status |
 | ------------- | ------------- |
-| Freeze Status |  |
-| Content Cell  | Content Cell  |
-CNN layers: <br>
-Linear Layer: 3 layers<br>
-Pooling: LogSoftmax<br>
-Activation Function: Mila<br>
-
+| Freeze Status | Unfreeze  |
+| CNN layer  | NA  |
+| Linear layer  | 3 Layers  |
+| Dropout  | 0.4-0.5  |
+| Activation Function  | Mila <br> (https://github.com/digantamisra98/Mish) |
+| Last Layer Activation Function  | LogSoftmax  |
 # Hyper parameters
-Batch size: 32
-Learning rate:0.0001<br>
-Optimizer:Rectified Adam (RAdam)<br>
-Loss function:Cross Entropy <br>
-Epoch: 10 <br>
-Transformation:<br>
+
+| Parameters  | Description/Status |
+| ------------- | ------------- |
+| Batch Size | 32  |
+| Learning Rate  | 0.0001  |
+| Optimizer | Rectified Adam (RAdam)|
+| Loss Function  | Cross Entropy |
+| Epoch | 10 |
+# Transformation
+ FLOW DIAGRAM
 
 # Accuracy
 
