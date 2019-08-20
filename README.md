@@ -2,11 +2,19 @@
 <p align="center">
   <img width="1250" height="300" src="https://github.com/VAIBHAVPATEL97/SPAIC-Pneumonia-Project/blob/master/project%20showcase.jpg">
 </p>
-This repository will contain all the necessary resources required for this project and also feel free to contribute to this repo.
-There are separate folder made to update your progress of this project and to upload resources so maintain the format.
+This repository is created for SPAIC project showcase. Project titled "Detection of Pneumonia by study of radiography".
+
+## Contributors of this project are:
+
+| Name | Slack Name |
+| --- | ---|
+| Vaibhav Patel| @Vebby
+| Shudipto Trafder | @Shudipto Trafder
+| Sankalp Dayal | @Sankalp Dayal
+
 
 # Abstract
-
+We have developed a model that can detect pneumonia from Chest X-Rays of the patient which has a significant level of accuracy in detecting pneumonia in comparison with practicing radiologists.  Detecting pneumonia from chest radiograph is a tough task for the radiologist. The appearance of pneumonia in X-ray images are often confusing, can overlap with other diagnoses, and can mimic many other abnormalities. So the radiologists can get confused by this, leading to waste their time as well as energy just to detect the disease like pneumonia from the radiograph. So to help them get a second opinion, they can take help of our model for the detection of pneumonia.
 # Dataset
 For this project, we have dataset present on kaggle.The dataset is organized into 3 folders (train, test, val) and contains subfolders for each image category (Pneumonia/Normal). There are 5,863 X-Ray images (JPEG) and 2 categories (Pneumonia/Normal).
 
@@ -19,8 +27,8 @@ A glimpse of Dataset.
   <img width="560" height="200" src="https://github.com/VAIBHAVPATEL97/SPAIC-Pneumonia-Project/blob/master/jZqpV51.png">
 </p>
 
-Dataset can be found on this site-https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
-## Acknowledgements for this dataset
+Dataset can be found on this site-[Pneumonia Dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
+### Acknowledgements for this dataset
 Data: https://data.mendeley.com/datasets/rscbjbr9sj/2
 
 License: CC BY 4.0
@@ -28,67 +36,12 @@ License: CC BY 4.0
 Citation: http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5
 Inspiration
 Automated methods to detect and classify human diseases from medical images.
-### NOTE: This dataset does not belong to us neither created by us.
+#### NOTE: This dataset does not belong to us neither created by us.
 
 # Proposed Model
 #### Kaggle Kernel: 
 [chest-x-ray-prediction](https://www.kaggle.com/iamsdt/chest-x-ray-prediction)
 
-# Why RESNET101?
-We have tried various other network model for this project. Below shown table shows the comparision of various models and their effect of the accuracy of prediction.
-
-| Model Name  | Total Accuracy (%) |
-| ------------- | ------------- |
-| VGG16  | 79.2188  |
-| RESNET 50  | 83.2812  |
-| RESNET 101  |  91.7188  |
-# About RESNET101.
-[Paper on RESNET by arvix](https://arxiv.org/pdf/1512.03385.pdf)
-We used transfer learning Method
-And used Resnet101 pretrained model
-
-# Model Architecture
-Train whole Model
-
-| Parameters |
-|---|
-|Freeze Status: Unfreeze
-| Linear Layer: 3 layers
-| Dropout: 0.4, 0.5
-| Activation Function: [Mila](https://github.com/digantamisra98/Mish)
-| Last Layer Activation: LogSoftmax
-
-# Hyper parameters
-| Hyper Parameters|
-| --- |
-|Batch size: 32 |
-| Learning rate: 0.0001 |
-| Optimizer: [Rectified Adam (RAdam)](https://github.com/LiyuanLucasLiu/RAdam) |
-| Loss function: Cross Entropy |
-| Epoch: 10 <br> |
-
-
-
-|Transformations |
-| --- |
-| Resize(256) |                           
-| CenterCrop(270) |                             
-| RandomHorizontalFlip()|                            
-| ToTensor() |
-| Mean: 0.5124654 0.5124654 0.5124654|
-| Std: 0.2393792 0.2393792 0.2393792 |
-|Normalize() |
-
-# Accuracy
-
-Total Accuracy: 91.7188 %
-
-Class wise accuracy:
-
-| Class Name | Accuracy
-| --- | ---
-| NORMAL | 79%
-| PNEUMONIA | 98%
 ### Libraries version
 Prerequisite packages which should be there in your run environment to run this project model.
 
@@ -100,17 +53,50 @@ Prerequisite packages which should be there in your run environment to run this 
 |Matplotlib  | 3.0.3 |
 | PIL  | 5.4.0 |
 
-## Contributors of this project are:
+# Why RESNET101?
+We have tried various other network model for this project. Below shown table shows the comparision of various models and their effect of the accuracy of prediction.
+#####   Comparision of various models for selecting the best model.
+| Model Name  | Accuracy of class 1- Pneumonia detected |Accuracy of class 2- Pneumonia is not detected|
+| ------------- | ------------- |  ------------- |
+| VGG16  | Content Cell  | |
+| RESNET 51  | Content Cell  ||
+| RESNET 101  | Content Cell  ||
+# About RESNET101.
+[Paper on RESNET by arvix](https://arxiv.org/pdf/1512.03385.pdf)
+We used transfer learning Method
+And used Resnet101 pretrained model
 
-| Name | Slack Name |
-| --- | ---|
-| Vaibhav Patel| Vebby
-| Shudipto Trafder | Shudipto Trafder
-| Sankalp Dayal | Sankalp Dayal
+# Model Architecture
+
+CNN layers: <br>
+Linear Layer: 3 layers<br>
+Pooling: LogSoftmax<br>
+Activation Function: Mila<br>
+
+# Hyper parameters
+Batch size: 32
+Learning rate:0.0001<br>
+Optimizer:Rectified Adam (RAdam)<br>
+Loss function:Cross Entropy <br>
+Epoch: 10 <br>
+Transformation:<br>
+
+# Accuracy
 
 
-# References 
-- [CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning](https://stanfordmlgroup.github.io/projects/chexnet/)
-- [Can Machine Learning Read Chest X-rays like Radiologists?](https://towardsdatascience.com/can-machine-learning-read-chest-x-rays-like-radiologists-part-1-7182cf4b87ff)
-- [Effecient Deep Network Architectures for Fast Chest X-Ray Tuberculosis Screening and Visualization](https://www.nature.com/articles/s41598-019-42557-4.pdf)
-- [ChesXNET by stanford](https://arxiv.org/pdf/1711.05225.pdf)
+Total Accuracy:<br>
+Class wise accuracy:<br>
+
+# Future Work
+1. To test this model on NIH Chest X-ray Dataset to study the performance of this model.[NIH Chest X-ray Dataset](https://www.kaggle.com/nih-chest-xrays/data)<br>
+2. Comparison of the accuracy of detecting pneumonia between the proposed model and by radiologists.
+3. To make an Andriod and IOS application after successfully acheiving state of the art accuracy.
+# References  
+[CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning](https://stanfordmlgroup.github.io/projects/chexnet/)
+
+[Can Machine Learning Read Chest X-rays like Radiologists?](https://towardsdatascience.com/can-machine-learning-read-chest-x-rays-like-radiologists-part-1-7182cf4b87ff)
+
+[Effecient Deep Network Architectures for Fast Chest X-Ray Tuberculosis Screening and Visualization](https://www.nature.com/articles/s41598-019-42557-4.pdf)
+
+
+[ChesXNET by stanford](https://arxiv.org/pdf/1711.05225.pdf)
