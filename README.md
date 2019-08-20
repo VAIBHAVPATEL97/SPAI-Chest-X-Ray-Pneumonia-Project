@@ -56,11 +56,11 @@ Prerequisite packages which should be there in your run environment to run this 
 # Why RESNET101?
 We have tried various other network model for this project. Below shown table shows the comparision of various models and their effect of the accuracy of prediction.
 #####   Comparision of various models for selecting the best model.
-| Model Name  | Accuracy of class 1- Pneumonia detected |Accuracy of class 2- Pneumonia is not detected|
-| ------------- | ------------- |  ------------- |
-| VGG16  | Content Cell  | |
-| RESNET 51  | Content Cell  ||
-| RESNET 101  | Content Cell  ||
+| Model Name  | Total Accuracy |
+| ------------- | ------------- |  ]
+| VGG 16  | 79.2188   | 
+| RESNET 50  | 83.2812   |
+| RESNET 101  | 91.7188  |
 # About RESNET101.
 [Paper on RESNET by arvix](https://arxiv.org/pdf/1512.03385.pdf)
 We used transfer learning Method
@@ -68,6 +68,10 @@ And used Resnet101 pretrained model
 
 # Model Architecture
 
+| Parameters  | Description/Status |
+| ------------- | ------------- |
+| Freeze Status |  |
+| Content Cell  | Content Cell  |
 CNN layers: <br>
 Linear Layer: 3 layers<br>
 Pooling: LogSoftmax<br>
