@@ -107,6 +107,14 @@ Class wise accuracy:
 | NORMAL | 79%
 | PNEUMONIA | 98%
 
+# Federated Learning
+
+<p align="center">
+  <img width="700" src="https://github.com/sankalpdayal5/SPAIC-Pneumonia-Project/blob/master/federated.jpg">
+</p>
+
+
+
 # Future Work
 1. To test this model on NIH Chest X-ray Dataset to study the performance of this model.[NIH Chest X-ray Dataset](https://www.kaggle.com/nih-chest-xrays/data)<br>
 2. Comparison of the accuracy of detecting pneumonia between the proposed model and by radiologists.
