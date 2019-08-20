@@ -2,8 +2,16 @@
 <p align="center">
   <img width="1250" height="300" src="https://github.com/VAIBHAVPATEL97/SPAIC-Pneumonia-Project/blob/master/project%20showcase.jpg">
 </p>
-This repository will contain all the necessary resources required for this project and also feel free to contribute to this repo.
-There are separate folder made to update your progress of this project and to upload resources so maintain the format.
+This repository is created for SPAIC project showcase. Project titled "Detection of Pneumonia by study of radiography".
+
+## Contributors of this project are:
+
+| Name | Slack Name |
+| --- | ---|
+| Vaibhav Patel| Vebby
+| Shudipto Trafder | Shudipto Trafder
+| Sankalp Dayal | Sankalp Dayal
+
 
 # Abstract
 We have developed a model that can detect pneumonia from Chest X-Rays of the patient which has a significant level of accuracy in detecting pneumonia in comparison with practicing radiologists.  Detecting pneumonia from chest radiograph is a tough task for the radiologist. The appearance of pneumonia in X-ray images are often confusing, can overlap with other diagnoses, and can mimic many other abnormalities. So the radiologists can get confused by this, leading to waste their time as well as energy just to detect the disease like pneumonia from the radiograph. So to help them get a second opinion, they can take help of our model for the detection of pneumonia.
@@ -19,8 +27,8 @@ A glimpse of Dataset.
   <img width="560" height="200" src="https://github.com/VAIBHAVPATEL97/SPAIC-Pneumonia-Project/blob/master/jZqpV51.png">
 </p>
 
-Dataset can be found on this site-https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
-## Acknowledgements for this dataset
+Dataset can be found on this site-[Pneumonia Dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
+### Acknowledgements for this dataset
 Data: https://data.mendeley.com/datasets/rscbjbr9sj/2
 
 License: CC BY 4.0
@@ -28,11 +36,22 @@ License: CC BY 4.0
 Citation: http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5
 Inspiration
 Automated methods to detect and classify human diseases from medical images.
-### NOTE: This dataset does not belong to us neither created by us.
+#### NOTE: This dataset does not belong to us neither created by us.
 
 # Proposed Model
 #### Kaggle Kernel: 
 [chest-x-ray-prediction](https://www.kaggle.com/iamsdt/chest-x-ray-prediction)
+
+### Libraries version
+Prerequisite packages which should be there in your run environment to run this project model.
+
+| Package Name  | Version Number |
+| ------------- | ------------- |
+| Torch  | 1.2.0  |
+| Torch vision  |  0.4.0a0+6b959ee|
+| Numpy | 1.17.0 |
+|Matplotlib  | 3.0.3 |
+| PIL  | 5.4.0 |
 
 # Why RESNET101?
 We have tried various other network model for this project. Below shown table shows the comparision of various models and their effect of the accuracy of prediction.
@@ -68,28 +87,11 @@ Transformation:<br>
 Total Accuracy:<br>
 Class wise accuracy:<br>
 
-
-### Libraries version
-Prerequisite packages which should be there in your run environment to run this project model.
-
-| Package Name  | Version Number |
-| ------------- | ------------- |
-| Torch  | 1.2.0  |
-| Torch vision  |  0.4.0a0+6b959ee|
-| Numpy | 1.17.0 |
-|Matplotlib  | 3.0.3 |
-| PIL  | 5.4.0 |
-
-## Contributors of this project are:
-
-| Name | Slack Name |
-| --- | ---|
-| Vaibhav Patel| Vebby
-| Shudipto Trafder | Shudipto Trafder
-| Sankalp Dayal | Sankalp Dayal
-
-
-# References 
+# Future Work
+1. To test this model on NIH Chest X-ray Dataset to study the performance of this model.[NIH Chest X-ray Dataset](https://www.kaggle.com/nih-chest-xrays/data)<br>
+2. Comparison of the accuracy of detecting pneumonia between the proposed model and by radiologists.
+3. To make an Andriod and IOS application after successfully acheiving state of the art accuracy.
+# References  
 [CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning](https://stanfordmlgroup.github.io/projects/chexnet/)
 
 [Can Machine Learning Read Chest X-rays like Radiologists?](https://towardsdatascience.com/can-machine-learning-read-chest-x-rays-like-radiologists-part-1-7182cf4b87ff)
