@@ -78,6 +78,7 @@ And used Resnet101 pretrained model
 | Dropout  | 0.4-0.5  |
 | Activation Function  | Mila <br> (https://github.com/digantamisra98/Mish) |
 | Last Layer Activation Function  | LogSoftmax  |
+
 # Hyper parameters
 
 | Parameters  | Description/Status |
@@ -87,6 +88,7 @@ And used Resnet101 pretrained model
 | Optimizer | Rectified Adam (RAdam)|
 | Loss Function  | Cross Entropy |
 | Epoch | 10 |
+
 # Transformation
  FLOW DIAGRAM
 
