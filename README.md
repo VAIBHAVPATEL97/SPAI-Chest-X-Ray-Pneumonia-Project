@@ -10,7 +10,7 @@ This repository is created for SPAIC project showcase. Project titled "Detection
 | --- | ---|
 | Vaibhav Patel| @Vebby
 | Shudipto Trafder | @Shudipto Trafder
-
+| Sankalp Dayal | @SankalpDayal |
 
 
 # Abstract
